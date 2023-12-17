@@ -2,12 +2,12 @@
 name = "aoc"
 version = "0.0.1"
 description = "Advent of Code 2023"
-authors = ["James Spencer <fjames@jmes.tech>"]
-repository = "https://github.com/james/aoc"
-documentation = "https://james.github.io/aoc/"
+authors = ["James Spencer <james@jmes.tech>"]
+repository = "https://git.jmes.tech/james/aoc"
+documentation = ""
 readme = "README.md"
 packages = [
-  {include = "aoc"}
+    { include = "aoc" }
 ]
 
 [tool.poetry.dependencies]
