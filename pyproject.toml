@@ -35,6 +35,7 @@ show_error_codes = "True"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+addopts = "-rP"
 
 [tool.ruff]
 target-version = "py37"
@@ -73,6 +74,8 @@ select = [
 ]
 
 ignore = [
+    # LineTooLong
+    "E501",
     # DoNotAssignLambda
     "E731",
 ]
