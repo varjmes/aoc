@@ -14,10 +14,6 @@ word_number_to_digit = {
 }
 
 
-def part_two(doc):
-    return reduce((lambda x, y: x + get_calibration_value(y)), doc, 0)
-
-
 def get_calibration_value(line):
     """
     Return a new string comprised of the first and last digit found within a given
@@ -37,3 +33,11 @@ def get_calibration_value(line):
         val if len(val) == 1 else word_number_to_digit[val] for val in string_values
     ]
     return int(values[0] + values[-1])
+
+
+def part_two(doc):
+    """
+    With a document made up of multiple lines, get the calibration value for each and
+    return the sum of all calibration values
+    """
+    return reduce((lambda x, y: x + get_calibration_value(y)), doc, 0)
