@@ -1,7 +1,7 @@
 from textwrap import dedent
 
-from aoc.day_one.part_one import part_one
-from aoc.day_one.part_two import part_two
+from aoc.day_1.part_one import part_one
+from aoc.day_1.part_two import part_two
 
 
 def test_part_one():
