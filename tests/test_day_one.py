@@ -8,11 +8,11 @@ def test_part_one():
     ex = (
         dedent(
             """
-    1abc2
-    pqr3stu8vwx
-    a1b2c3d4e5f
-    treb7uchet
-    """
+            1abc2
+            pqr3stu8vwx
+            a1b2c3d4e5f
+            treb7uchet
+            """
         )
         .strip("\n")
         .split("\n")
@@ -25,14 +25,14 @@ def test_part_two():
     ex = (
         dedent(
             """
-    two1nine
-    eightwothree
-    abcone2threexyz
-    xtwone3four
-    4nineeightseven2
-    zoneight234
-    7pqrstsixteen
-    """
+            two1nine
+            eightwothree
+            abcone2threexyz
+            xtwone3four
+            4nineeightseven2
+            zoneight234
+            7pqrstsixteen
+            """
         )
         .strip("\n")
         .split("\n")
